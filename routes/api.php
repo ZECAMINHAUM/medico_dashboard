@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::namespace('Api')->group(function () {
+    Route::apiResource('patient', 'PatientController');
+    Route::apiResource('consultation', 'ConsultationController');
+    Route::apiResource('prescription', 'PrescriptionController');
+    Route::apiResource('doctor', 'DoctorController');
 });
