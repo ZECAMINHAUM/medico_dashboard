@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,4 +13,5 @@
 |
 */
 
-Route::get('/', ['as' => 'login', 'uses' => 'Web\HomeController@index']);
+Route::get('/', ['as' => 'home', 'uses' => 'Web\Home2Controller@index']);
+Route::get('home', ['as' => 'home2', 'uses' => 'Web\HomeController@index']);

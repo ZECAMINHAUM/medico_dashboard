@@ -20,11 +20,11 @@ Route::namespace('Api')->group(function () {
     Route::apiResource('doctor', 'DoctorController');
 
     //Doctor Custom routes
-    Route::get('patients/{id}', 'DoctorController@getAllPatients');
+    Route::get('doctor/patients/{id}', 'DoctorController@getAllPatients');
     Route::get('doctor/consultations/{id}', 'DoctorController@medical_consultations');
 
     //Patient Custon routes
-    Route::get('/patient/consultations/{id}', 'PatientController@medical_consutations');
+    Route::get('patient/consultations/{id}', 'PatientController@medical_consutations');
 
     //Medical Consultation custom routes
     Route::get('consultations/prescriptions/{id}', 'ConsultationController@prescritions');

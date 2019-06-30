@@ -1,57 +1,28 @@
-<div class="page-header navbar navbar-fixed-top">
-    <!-- BEGIN HEADER INNER -->
-    <div class="page-header-inner ">
-        <!-- BEGIN LOGO -->
-        <div class="page-logo">
-            <a href="">
-                <img src="{{asset('imagens/logo_ba_2019.png')}}" class="logo-default" width="170" />
-            </a>
-            <div class="menu-toggler sidebar-toggler">
-                <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
-            </div>
-        </div>
-        <!-- END LOGO -->
-        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
-        <!-- END RESPONSIVE MENU TOGGLER -->
-
-        <!-- BEGIN PAGE TOP -->
-        <div class="page-top">
-
-            <!-- BEGIN TOP NAVIGATION MENU -->
-            <div class="top-menu">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="separator hide"> </li>
-
-
-                    <!-- BEGIN USER LOGIN DROPDOWN -->
-                    <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-                    <li class="dropdown dropdown-user ">
-                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <span class="username username-hide-on-mobile"> Administrador</span>
-                            <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-                            <!-- <img alt="" class="img-circle" src="libs/metronic/assets/layouts/layout4/img/man.png" />-->
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-default">
-                            <li>
-                                <a href="index.php">
-                                    <i class="icon-key"></i>
-                                    Sair
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- END USER LOGIN DROPDOWN -->
-
-
-                    <!-- BEGIN QUICK SIDEBAR TOGGLER -->
-
-                    <!-- END QUICK SIDEBAR TOGGLER -->
+<!--================Header Menu Area =================-->
+<header class="header_area">
+<div class="main_menu">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h scroll" href="#banner_area"><img src="{{asset('nexus/img/logo.png')}}" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <ul class="nav navbar-nav menu_nav justify-content-center">
+                    <li class="nav-item active"><a class="nav-link scroll" href="#banner_area">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link scroll" href="#work_area">About</a></li> 
+                    <li class="nav-item"><a class="nav-link scroll" href="#impress_area">Services</a>
                 </ul>
-            </div>
-            <!-- END TOP NAVIGATION MENU -->
+                <!--<ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="#" class="tickets_btn">Free Trial</a></li>
+                </ul>-->
+            </div> 
         </div>
-        <!-- END PAGE TOP -->
-    </div>
-    <!-- END HEADER INNER -->
+    </nav>
 </div>
+</header>
+<!--================Header Menu Area =================-->
