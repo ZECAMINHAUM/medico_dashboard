@@ -28,4 +28,6 @@ Route::namespace('Api')->group(function () {
 
     //Medical Consultation custom routes
     Route::get('consultations/prescriptions/{id}', 'ConsultationController@prescritions');
+
+    Route::get('/patient/find/{telefone}', 'PatientController@findPatient');
 });
