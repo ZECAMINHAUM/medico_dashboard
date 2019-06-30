@@ -21,7 +21,7 @@
 <!--================End Price Area =================-->
 
 <!--================Testimonials Area =================-->
-@include('view.home.testimonials_area')
+@include('view.home.contact_area')
 <!--================End Testimonials Area =================-->
 
 <!--================Screen Area =================-->

@@ -5,20 +5,20 @@
         <div class="col-lg-5 col-sm-6">
             <aside class="f_widget ab_widget">
                 <div class="f_title">
-                    <h3>About Me</h3>
+                    <h3>Sobre mim</h3>
                 </div>
-                <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+                <p>Você quer ser ainda mais bem sucedido? Aprenda a amar aprender e crescer. Quanto mais esforço você dedica a melhorar suas habilidades, maior será o retorno obtido</p>
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Medify. Todos os direitos reservados. <a href="">Termos de Uso e Política de Privacidade</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </aside>
         </div>
         <div class="col-lg-5 col-sm-6">
             <aside class="f_widget news_widget">
                 <div class="f_title">
-                    <h3>Newsletter</h3>
+                    <h3>Boletim de Notícias</h3>
                 </div>
-                <p>Stay updated with our latest trends</p>
+                <p>Fique atualizado com nossas últimas tendências</p>
                 <div id="mc_embed_signup">
                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                         <div class="input-group d-flex flex-row">
@@ -33,9 +33,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <div class="col-lg-2">
             <aside class="f_widget social_widget">
                 <div class="f_title">
-                    <h3>Follow Me</h3>
+                    <h3>Me siga</h3>
                 </div>
-                <p>Let us be social</p>
+                <p>Deixe-nos ser social</p>
                 <ul class="list">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>

@@ -1,14 +1,14 @@
-<section class="price_area p_120">
+<section class="price_area p_120" id="price_area">
 <div class="container">
     <div class="main_title">
-        <h2>Choose Your Price Plan</h2>
+        <h2>ESCOLHA SEU PLANO DE PREÇOS</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
     </div>
     <div class="price_inner row">
         <div class="col-lg-4">
             <div class="price_item">
                 <div class="price_head">
-                    <h4>Real Basic</h4>
+                    <h4>Básico</h4>
                 </div>
                 <div class="price_body">
                     <ul class="list">
@@ -27,7 +27,7 @@
         <div class="col-lg-4">
             <div class="price_item">
                 <div class="price_head">
-                    <h4>Real Standard</h4>
+                    <h4>Padrão</h4>
                 </div>
                 <div class="price_body">
                     <ul class="list">
@@ -46,7 +46,7 @@
         <div class="col-lg-4">
             <div class="price_item">
                 <div class="price_head">
-                    <h4>Real Ultimate</h4>
+                    <h4>Ultimate</h4>
                 </div>
                 <div class="price_body">
                     <ul class="list">

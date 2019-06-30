@@ -1,10 +1,10 @@
-<section class="home_banner_area">
+<section class="home_banner_area" id="banner_area">
 <div class="banner_inner">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
                 <div class="banner_content">
-                    <h2>Mass People <br />Oriented Software</h2>
+                    <h2>Software orientado para pessoas em massa</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
                 </div>
             </div>

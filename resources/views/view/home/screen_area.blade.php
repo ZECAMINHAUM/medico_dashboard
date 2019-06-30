@@ -1,4 +1,4 @@
-<section class="screen_area text-center p_120">
+<section class="screen_area text-center p_120" id="screen_area">
 <div class="container">
     <div class="main_title">
         <h2>Unique Screens that work perfectly</h2>
