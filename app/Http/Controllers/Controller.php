@@ -34,7 +34,7 @@ class Controller extends BaseController
         if (!$data = $this->model->find($id)) {
             return response()->json(['error' => 'Nada foi encontrado'], 404);
         } else {
-            return response()->json($data);
+            return response()->json($data, 200);
         }
     }
 

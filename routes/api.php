@@ -18,4 +18,7 @@ Route::namespace('Api')->group(function () {
     Route::apiResource('consultation', 'ConsultationController');
     Route::apiResource('prescription', 'PrescriptionController');
     Route::apiResource('doctor', 'DoctorController');
+
+    //Users Custom routes
+    Route::get('patients/{id}', 'UserController@getAllPatients');
 });
