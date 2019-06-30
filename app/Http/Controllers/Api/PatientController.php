@@ -18,22 +18,37 @@ class PatientController extends Controller
         $this->request = $request;
     }
 
-    public function medical_consutations($id){
+    public function patientConsultations($id)
+    {
+        if (!$data = $this->model->with('patientConsultations')->find($id)) {
+            return response()->json(['error' => 'Nada foi encontrado'], 404);
+        } else {
+            return response()->json($data);
+        }
+    }
+
+    
+
+    //Lucas
+    /*public function medical_consutations($id)
+    {
         return Patient::find($id)->medical_consutations;
     }
 
-    public function findPatient($telefone){
+    public function findPatient($telefone)
+    {
         $patient = Patient::where('phone', $telefone)->first();
 
-        if($patient === null){
+        if ($patient === null) {
             return response()->json(['success' => false], 400);
         }
         $data = Patient::find($patient->id)->medical_consutations;
-        if($data === null){
+        if ($data === null) {
             return response()->json(['success' => true, $data], 400);
         }
         $data = MedicalConsultation::find($data->id)->prescription;
         return response()->json(['success' => true, $data], 200);
     }
-    
+    */
+
 }

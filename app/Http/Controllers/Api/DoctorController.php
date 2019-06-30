@@ -16,11 +16,30 @@ class DoctorController extends Controller
         $this->request = $request;
     }
 
-    public function getAllPatients($id){
+    public function doctorPatients($id)
+    {
+        if (!$data = $this->model->with('doctorPatients')->find($id)) {
+            return response()->json(['error' => 'Nada foi encontrado'], 404);
+        } else {
+            return response()->json($data);
+        }
+    }
+
+    public function doctorConsultations($id)
+    {
+        if (!$data = $this->model->with('doctorConsultations')->find($id)) {
+            return response()->json(['error' => 'Nada foi encontrado'], 404);
+        } else {
+            return response()->json($data);
+        }
+    }
+
+    //Lucas
+    /*public function getAllPatients($id){
         return Doctor::find($id)->patient;
     }
 
     public function medical_consultations($id){
         return Doctor::find($id)->medical_consultations;
-    }
+    }*/
 }

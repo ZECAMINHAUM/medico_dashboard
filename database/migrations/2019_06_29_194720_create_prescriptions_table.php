@@ -16,6 +16,8 @@ class CreatePrescriptionsTable extends Migration {
 			$table->bigInteger('fk_id_medical_consultations')->unsigned();
 			$table->date('shelf_life');
 			$table->string('drug_name');
+			$table->string('frequency', 65);
+			$table->integer('total');
 			$table->dateTime('last_alert');
 			$table->foreign('fk_id_medical_consultations')->references('id')->on('medical_consultations')->onDelete('cascade');
 			$table->timestamps();

@@ -20,14 +20,26 @@ Route::namespace('Api')->group(function () {
     Route::apiResource('doctor', 'DoctorController');
 
     //Doctor Custom routes
-    Route::get('doctor/patients/{id}', 'DoctorController@getAllPatients');
-    Route::get('doctor/consultations/{id}', 'DoctorController@medical_consultations');
-
+    Route::get('doctor/{id}/patients', 'DoctorController@doctorPatients');
+    Route::get('doctor/{id}/consultations', 'DoctorController@doctorConsultations');
+    
     //Patient Custon routes
-    Route::get('patient/consultations/{id}', 'PatientController@medical_consutations');
+    Route::get('patient/{id}/consultations', 'PatientController@patientConsultations');
 
     //Medical Consultation custom routes
-    Route::get('consultations/prescriptions/{id}', 'ConsultationController@prescritions');
+    Route::get('consultation/{id}/prescriptions', 'ConsultationController@consultationPrescriptions');
+    
 
-    Route::get('/patient/find/{telefone}', 'PatientController@findPatient');
+
+    //Lucas
+    /*Route::get('doctor/patients/{id}', 'DoctorController@getAllPatients');
+    Route::get('doctor/consultations/{id}', 'DoctorController@medical_consultations');
+
+    Route::get('patient/consultations/{id}', 'PatientController@medical_consutations');
+
+    Route::get('consultations/prescriptions/{id}', 'ConsultationController@prescritions');
+    
+
+    Route::get('patient/find/{telefone}', 'PatientController@findPatient');
+    */
 });
