@@ -15,4 +15,6 @@ class PrescriptionController extends Controller
         $this->model = $prescriptions;
         $this->request = $request;
     }
+
+    
 }
