@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Mail;
 |
 */
 
-Route::get('/', ['as' => 'home', 'uses' => 'Web\Home2Controller@index']);
-Route::get('home', ['as' => 'home2', 'uses' => 'Web\HomeController@index']);
+Route::get('/', ['as' => 'home2', 'uses' => 'Web\Home2Controller@index']);
+Route::get('home', ['as' => 'home', 'uses' => 'Web\HomeController@index']);
