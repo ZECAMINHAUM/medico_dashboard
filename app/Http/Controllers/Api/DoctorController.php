@@ -15,4 +15,12 @@ class DoctorController extends Controller
         $this->model = $doctors;
         $this->request = $request;
     }
+
+    public function getAllPatients($id){
+        return Doctor::find($id)->patient;
+    }
+
+    public function medical_consultations($id){
+        return Doctor::find($id)->medical_consultations;
+    }
 }

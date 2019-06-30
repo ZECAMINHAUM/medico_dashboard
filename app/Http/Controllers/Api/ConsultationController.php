@@ -15,4 +15,8 @@ class ConsultationController extends Controller
         $this->model = $consultations;
         $this->request = $request;
     }
+
+    public function prescritions($id){
+        return MedicalConsultation::find($id)->prescritions;
+    }    
 }

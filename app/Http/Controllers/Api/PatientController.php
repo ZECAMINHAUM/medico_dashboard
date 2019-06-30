@@ -17,5 +17,8 @@ class PatientController extends Controller
         $this->request = $request;
     }
 
+    public function medical_consutations($id){
+        return Patient::find($id)->medical_consutations;
+    }
     
 }
